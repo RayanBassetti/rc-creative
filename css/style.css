@@ -9,7 +9,7 @@ Template: Utiliser cette ligne si vous utilisez un thème parent
 Version: 1.0
 
 */
-h1 {
+* {
   color: red;
 }
 
