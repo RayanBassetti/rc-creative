@@ -1,0 +1,14 @@
+Les FONTS : 
+
+Header : Montserrat BOLD
+Titres : Montserrat BOLD
+Textes : Myriad Pro REGULAR
+CTA : Myriad Pro BOLD
+“More” : Montserrat SEMIBOLD
+
+Les couleurs : 
+Titres : #314a5b
+Couleur verte : #01816b
+Couleur grise : #8b8c8c
+
+ 
