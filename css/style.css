@@ -34,6 +34,41 @@ h1 {
   color: #8b8c8c;
 }
 
+#header {
+  height: 15%;
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: sticky;
+}
+#header #logo-rc {
+  height: 100px;
+  width: 100px;
+}
+#header #Menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#header #Menu .Menu_choice {
+  width: 200px;
+}
+#header #Menu .Menu_choice a {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 #mainBanner {
   height: 100%;
   width: 100%;
@@ -51,7 +86,7 @@ h1 {
 #mainBanner #mainBanner_content #mainBanner_text h1 {
   font-size: 250%;
   font-family: "Montserrat", sans-serif;
-  font-weight: 900;
+  font-weight: bold;
   text-transform: uppercase;
   color: #314a5b;
   margin-bottom: 1%;

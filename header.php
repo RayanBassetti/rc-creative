@@ -9,3 +9,16 @@
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" type="text/css" media="screen" />
 </head>
 <body>
+
+<section id="header">
+
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png" alt="logo" id="logo-rc">
+
+    <ul id="Menu">
+        <li class="Menu_choice"><a href="">à propos</a></li>
+        <li class="Menu_choice"><a href="">l'équipe</a></li>
+        <li class="Menu_choice"><a href="">portfolio</a></li>
+        <li class="Menu_choice"><a href="">contact</a></li>
+    </ul>
+
+</section>
