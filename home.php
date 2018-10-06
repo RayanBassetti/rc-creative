@@ -10,7 +10,7 @@
 <section id="mainBanner">
     <div id="mainBanner_content">
         <div id="mainBanner_text">
-            <h1>l'intelligence n'est rien sans ambition <span class="green">.</span></h1>
+            <h1>l'intelligence n'est rien sans ambition<span class="green">.</span></h1>
             <p>Comme Skip, petit mais puissant.</p>
         </div>
         <a href="#" class="button_more">en savoir plus</a>
@@ -38,7 +38,16 @@
 </section>
 
 <section id="Portfolio">
-
+    <div id=Portfolio_text>
+        <h1 class="Portfolio_titre">portfolio<span class="green">.</span></h1>
+        <p class="Portfolio_soustitre">Nous sommes peu, mais très efficaces</p>
+        <p class="description_text">Nous avons déjà réalisé X projets depuis notre création. Cela nous permet d'enrichir
+                                    nos connaissances, et de pratiquer dans l'optique de vous offrir un service toujours 
+                                    plus performant et à l'écoute.
+                                    Vous pouvez retrouvez toutes noes créations dans le Portfolio
+        </p>
+        <a href="#" class="link_more">MORE</a>
+    </div>
 </section>
 
 <section id="Equipe">
