@@ -56,14 +56,14 @@
     </div>
     <div id="Equipe_slots">
         <div class="Equipe_slot">
-            <h1 class="Equipe_slot_titre">prénom</h1>
-            <p class="Equipe_slot_post">Poste</p>
-            <p class="description_text">Description du poste.</p>
+            <h1 class="Equipe_slot_titre">Rayan</h1>
+            <p class="Equipe_slot_post">le dev.</p>
+            <p class="description_text">il code.</p>
         </div>
         <div class="Equipe_slot">
-            <h1 class="Equipe_slot_titre">prénom</h1>
-            <p class="Equipe_slot_post">Poste</p>
-            <p class="description_text">Description du poste.</p>
+            <h1 class="Equipe_slot_titre">Cyril</h1>
+            <p class="Equipe_slot_post">le designer/market.</p>
+            <p class="description_text">il crée et vend du rêve.</p>
         </div>
     </div>
 </section>

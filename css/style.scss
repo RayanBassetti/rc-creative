@@ -17,6 +17,7 @@ $greyer : #8b8c8c;
 
 * {
     margin : 0;
+    transition : 0.3s;
 }
 html, body {
     height : 100%;
@@ -159,8 +160,6 @@ h1 {
         }
     }
 }
-
-
 
 #Equipe {
     width : 100%;
