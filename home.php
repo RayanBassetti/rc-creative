@@ -7,7 +7,6 @@
 
 <?php get_header(); ?>
 
-<section id="mainBanner">
     <div id="mainBanner_content">
         <div id="mainBanner_text">
             <h1>l'intelligence n'est rien sans ambition<span class="green">.</span></h1>
