@@ -153,6 +153,10 @@ h1 {
 
         #aboutUs_block {
             width : 20%;
+
+            .description_text {
+                margin-top : 3%;
+            }
         }
     }
 }
@@ -173,8 +177,7 @@ h1 {
             align-items: center;
 
             #Menu {
-                padding : 0;
-                flex-direction : column;
+                display: none;
             }
         }
 
@@ -184,4 +187,20 @@ h1 {
             align-items: center;
         }
     }
+
+    #aboutUs {
+        height : auto;
+        width : 100%;
+        #aboutUs_blocks {
+            flex-direction: column;
+
+            #aboutUs_block {
+                margin-top : 3%;
+                margin-bottom : 3%;
+                width : 80%;
+                text-align: center;
+            }
+        }
+    }
+
 }

@@ -134,6 +134,9 @@ h1 {
 #aboutUs #aboutUs_blocks #aboutUs_block {
   width: 20%;
 }
+#aboutUs #aboutUs_blocks #aboutUs_block .description_text {
+  margin-top: 3%;
+}
 
 @media all and (max-width: 1024px) {
   html, body {
@@ -148,13 +151,26 @@ h1 {
     align-items: center;
   }
   #mainBanner #header #Menu {
-    padding: 0;
-    flex-direction: column;
+    display: none;
   }
   #mainBanner #mainBanner_content {
     text-align: center;
     justify-content: center;
     align-items: center;
+  }
+
+  #aboutUs {
+    height: auto;
+    width: 100%;
+  }
+  #aboutUs #aboutUs_blocks {
+    flex-direction: column;
+  }
+  #aboutUs #aboutUs_blocks #aboutUs_block {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 80%;
+    text-align: center;
   }
 }
 
