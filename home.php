@@ -43,7 +43,7 @@
         <p class="description_text">Nous avons déjà réalisé X projets depuis notre création. Cela nous permet d'enrichir
                                     nos connaissances, et de pratiquer dans l'optique de vous offrir un service toujours 
                                     plus performant et à l'écoute.
-                                    Vous pouvez retrouvez toutes noes créations dans le Portfolio
+                                    Vous pouvez retrouvez toutes nos créations dans le Portfolio
         </p>
         <a href="#" class="link_more">MORE</a>
     </div>
@@ -53,6 +53,18 @@
     <div id="Equipe_titres">
         <h1 class="Equipe_titre">notre équipe<span class="green">.</span></h1>
         <p class="description_text">Nous sommes jeunes mais très expérimentés.</p>
+    </div>
+    <div id="Equipe_slots">
+        <div class="Equipe_slot">
+            <h1 class="Equipe_slot_titre">prénom</h1>
+            <p class="Equipe_slot_post">Poste</p>
+            <p class="description_text">Description du poste.</p>
+        </div>
+        <div class="Equipe_slot">
+            <h1 class="Equipe_slot_titre">prénom</h1>
+            <p class="Equipe_slot_post">Poste</p>
+            <p class="description_text">Description du poste.</p>
+        </div>
     </div>
 </section>
 <?php get_footer(); ?>

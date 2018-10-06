@@ -100,8 +100,7 @@ h1 {
 
             h1 {
                 font-size : 250%;
-                font-family: 'Montserrat', sans-serif;
-                font-weight : bold;
+                font-weight : 900;
                 text-transform: uppercase;
                 color : $grey;
                 margin-bottom : 1%;
@@ -156,6 +155,34 @@ h1 {
 
             .description_text {
                 margin-top : 3%;
+            }
+        }
+    }
+}
+
+
+
+#Equipe {
+    width : 100%;
+    height : 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #Equipe_slots {
+        margin-top : 3%;
+        width : 30%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .Equipe_slot {
+            .Equipe_slot_post {
+                color : $green;
+                font-weight : 900;
+                font-family: 'Montserrat', sans-serif;
             }
         }
     }
