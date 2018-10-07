@@ -12,7 +12,7 @@
             <h1>l'intelligence n'est rien sans ambition<span class="green">.</span></h1>
             <p>Comme Skip, petit mais puissant.</p>
         </div>
-        <a href="#" class="button_more">en savoir plus</a>
+        <a href="#aboutUs" class="button_more">en savoir plus</a>
     </div>
 </section>
 
@@ -47,7 +47,7 @@
             <p class="description_text">Nous avons déjà réalisé X projets depuis notre création. Cela nous permet d'enrichir
                                         nos connaissances, et de pratiquer dans l'optique de vous offrir un service toujours 
                                         plus performant et à l'écoute.
-                                        Vous pouvez retrouvez toutes nos créations dans le Portfolio
+                                        Vous pouvez retrouvez toutes nos créations dans le Portfolio :
             </p>
             <a href="#" class="button_more">MORE</a>
         </div>
@@ -57,7 +57,7 @@
 <section id="Equipe">
     <div id="Equipe_titres">
         <h1 class="Equipe_titre">notre équipe<span class="green">.</span></h1>
-        <p class="description_text">Nous sommes jeunes mais très expérimentés.</p>
+        <p class="Equipe_soustitre">Nous sommes jeunes mais très expérimentés.</p>
     </div>
     <div id="Equipe_slots">
         <div class="Equipe_slot">

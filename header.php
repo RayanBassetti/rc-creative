@@ -7,6 +7,8 @@
     <title>RC Creative</title>
     <link href="<?php echo get_stylesheet_directory_uri(); ?>https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" type="text/css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
 </head>
 <body>
 

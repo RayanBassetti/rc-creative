@@ -129,11 +129,13 @@ h1 {
 #aboutUs #aboutUs_blocks {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 #aboutUs #aboutUs_blocks #aboutUs_block {
   width: 20%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 #aboutUs #aboutUs_blocks #aboutUs_block .description_text {
   margin-top: 3%;
@@ -153,14 +155,12 @@ h1 {
   width: 500px;
 }
 #Portfolio #Portfolio_content #Portfolio_text {
-  width: 20%;
+  text-align: justify;
+  width: 25%;
   margin-left: 3%;
 }
 #Portfolio #Portfolio_content #Portfolio_text .Portfolio_soustitre {
   font-family: "Montserrat", sans-serif;
-}
-#Portfolio #Portfolio_content #Portfolio_text h1 {
-  margin-bottom: 3%;
 }
 #Portfolio #Portfolio_content #Portfolio_text p {
   margin-top: 3%;
@@ -175,6 +175,10 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#Equipe #Equipe_titres .Equipe_soustitre {
+  margin-top: 3%;
+  font-family: "Montserrat", sans-serif;
 }
 #Equipe #Equipe_slots {
   margin-top: 3%;

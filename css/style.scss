@@ -147,11 +147,13 @@ h1 {
     #aboutUs_blocks {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
 
         #aboutUs_block {
             width : 20%;
+            margin-left : 3%;
+            margin-right : 3%;
 
             .description_text {
                 margin-top : 3%;
@@ -178,15 +180,12 @@ h1 {
         }
 
         #Portfolio_text {
-            width : 20%;
+            text-align: justify;
+            width : 25%;
             margin-left : 3%;
 
             .Portfolio_soustitre {
                 font-family: 'Montserrat', sans-serif;
-            }
-
-            h1 {
-                margin-bottom : 3%;
             }
 
             p {
@@ -205,6 +204,14 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    #Equipe_titres {
+
+        .Equipe_soustitre {
+            margin-top : 3%;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
 
     #Equipe_slots {
         margin-top : 3%;
@@ -226,7 +233,7 @@ h1 {
 
             .Equipe_slot_text {
                 margin-left : 5%;
-                
+
                 .Equipe_slot_post {
                     color : $green;
                     font-weight : 900;
