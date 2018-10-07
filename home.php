@@ -49,7 +49,7 @@
                                         plus performant et à l'écoute.
                                         Vous pouvez retrouvez toutes nos créations dans le Portfolio :
             </p>
-            <a href="#" class="button_more">MORE</a>
+            <a href="#" class="button_more">Voir les projets</a>
         </div>
     </div>
 </section>
@@ -77,6 +77,6 @@
             </div>
         </div>
     </div>
-    <a href="#" class="button_more">MORE</a>
+    <a href="#" class="button_more">En savoir plus</a>
 </section>
 <?php get_footer(); ?>
