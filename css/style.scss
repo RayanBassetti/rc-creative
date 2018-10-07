@@ -39,6 +39,24 @@ h1 {
     color : $greyer;
 }
 
+.button_more {
+        font-family: 'Montserrat', sans-serif;
+        font-size : 90%;
+        font-weight : 900;
+        text-align: center;
+        text-decoration: none;
+        color : white;
+        height : 60px;
+        width : 150px;
+        border-radius: 10px;
+        background-color : $green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        margin-top : 1%;
+    
+}
 #mainBanner {
     height : 100%;
     width : 100%;
@@ -116,25 +134,6 @@ h1 {
 
         }
 
-        a {
-            font-family: 'Montserrat', sans-serif;
-            font-size : 90%;
-            font-weight : 900;
-            text-align: center;
-            text-decoration: none;
-            color : white;
-            height : 60px;
-            width : 150px;
-            border-radius: 10px;
-            background-color : $green;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-transform: uppercase;
-            margin-top : 1%;
-        }
-
-
     }
 }
 
@@ -161,9 +160,47 @@ h1 {
     }
 }
 
+#Portfolio {
+
+    #Portfolio_content {
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        #Portfolio_pic {
+            margin-right : 3%;
+            
+            img {
+                height : 500px;
+                width : 500px;
+            }
+        }
+
+        #Portfolio_text {
+            width : 20%;
+            margin-left : 3%;
+
+            .Portfolio_soustitre {
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            h1 {
+                margin-bottom : 3%;
+            }
+
+            p {
+                margin-top : 3%;
+                margin-bottom : 3%;
+            }
+        }
+    }
+}
+
 #Equipe {
     width : 100%;
     height : 40%;
+    margin-top : 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,6 +208,7 @@ h1 {
 
     #Equipe_slots {
         margin-top : 3%;
+        margin-bottom : 3%;
         width : 30%;
         display: flex;
         flex-direction: row;
@@ -178,11 +216,24 @@ h1 {
         justify-content: space-between;
 
         .Equipe_slot {
-            .Equipe_slot_post {
-                color : $green;
-                font-weight : 900;
-                font-family: 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: row;
+
+            img {
+                height : 100px;
+                width : 100px;
             }
+
+            .Equipe_slot_text {
+                margin-left : 5%;
+                
+                .Equipe_slot_post {
+                    color : $green;
+                    font-weight : 900;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+
         }
     }
 }
