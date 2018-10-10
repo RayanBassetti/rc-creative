@@ -61,7 +61,7 @@
     </div>
     <div id="Equipe_slots">
         <div class="Equipe_slot">
-            <img src="" alt="">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/rayan.png" alt="">
             <div class="Equipe_slot_text">
                 <h1 class="Equipe_slot_titre">Rayan</h1>
                 <p class="Equipe_slot_post">le dev.</p>
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="Equipe_slot">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cyril.jpg" alt="cyril_pic">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cyril.png" alt="cyril_pic">
             <div class="Equipe_slot_text">
                 <h1 class="Equipe_slot_titre">Cyril</h1>
                 <p class="Equipe_slot_post">le designer/market.</p>
