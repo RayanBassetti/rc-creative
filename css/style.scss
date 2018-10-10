@@ -14,15 +14,16 @@ $green : #01816b;
 $grey : #314a5b;
 $greyer : #8b8c8c;
 
-
 * {
     margin : 0;
     transition : 0.3s;
 }
+
 html, body {
     height : 100%;
     width : 100%;
 }
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight : bolder;
@@ -57,6 +58,8 @@ h1 {
         margin-top : 1%;
     
 }
+
+
 #mainBanner {
     height : 100%;
     width : 100%;
@@ -295,6 +298,7 @@ h1 {
     #aboutUs {
         height : auto;
         width : 100%;
+        margin-top : 10%;
         #aboutUs_blocks {
             flex-direction: column;
 
@@ -306,5 +310,66 @@ h1 {
             }
         }
     }
+    
+    #Portfolio {
+        width : 100%;
+        margin-top : 10%;
 
+        #Portfolio_content {
+            flex-direction: column;
+            
+
+            #Portfolio_pic {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin : 0;
+                img {
+                    width : 100%;
+                }
+            }
+
+            #Portfolio_text {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                text-align: justify;
+                width : 90%;
+                margin-top : 3%;
+                margin-left : 0;
+            }
+        }
+
+    }
+
+    #Equipe {
+        margin-top : 10%;
+        margin-bottom : 10%;
+        height: auto;
+        
+        #Equipe_titres {
+            text-align: center;
+            margin-left : 3%;
+            margin-right : 3%;
+        }
+
+        #Equipe_slots {
+            flex-direction: column;
+            width : auto;
+
+            .Equipe_slot {
+                margin-top : 3%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .Equipe_slot_text {
+                    text-align: center;
+                    margin : 0;
+
+                }
+            }
+        }
+    }
 }

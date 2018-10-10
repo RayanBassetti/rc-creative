@@ -246,6 +246,7 @@ h1 {
   #aboutUs {
     height: auto;
     width: 100%;
+    margin-top: 10%;
   }
   #aboutUs #aboutUs_blocks {
     flex-direction: column;
@@ -255,6 +256,58 @@ h1 {
     margin-bottom: 3%;
     width: 80%;
     text-align: center;
+  }
+
+  #Portfolio {
+    width: 100%;
+    margin-top: 10%;
+  }
+  #Portfolio #Portfolio_content {
+    flex-direction: column;
+  }
+  #Portfolio #Portfolio_content #Portfolio_pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  #Portfolio #Portfolio_content #Portfolio_pic img {
+    width: 100%;
+  }
+  #Portfolio #Portfolio_content #Portfolio_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 0;
+  }
+
+  #Equipe {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: auto;
+  }
+  #Equipe #Equipe_titres {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  #Equipe #Equipe_slots {
+    flex-direction: column;
+    width: auto;
+  }
+  #Equipe #Equipe_slots .Equipe_slot {
+    margin-top: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #Equipe #Equipe_slots .Equipe_slot .Equipe_slot_text {
+    text-align: center;
+    margin: 0;
   }
 }
 
